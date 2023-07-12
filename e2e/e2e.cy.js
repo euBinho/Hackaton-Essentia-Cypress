@@ -19,4 +19,7 @@ import '../cypress/support/commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-Login.loginSucesso()
+it('Cliente realiza pedido e faz pagamento sem alteração de dados de entrega', () => {
+    
+    Login.loginSucesso();
+})
